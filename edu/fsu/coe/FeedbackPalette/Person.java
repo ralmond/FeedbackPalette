@@ -1,9 +1,11 @@
+package edu.fsu.coe.FeedbackPalette;
+
 
 
 /**
- * Class Reference
+ * Class Person
  */
-public class Reference {
+public class Person {
 
   //
   // Fields
@@ -13,7 +15,7 @@ public class Reference {
   //
   // Constructors
   //
-  public Reference () { };
+  public Person () { };
   
   //
   // Methods

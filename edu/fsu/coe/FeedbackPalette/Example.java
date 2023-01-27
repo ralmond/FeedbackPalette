@@ -1,3 +1,5 @@
+package edu.fsu.coe.FeedbackPalette;
+
 
 import java.util.*;
 
