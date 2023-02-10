@@ -1,0 +1,17 @@
+#Fri Jan 27 15:33:15 EST 2023
+bluej.teamsettings.ignore1=.*\\.class
+bluej.teamsettings.yourName=<<<Your name here>>>
+bluej.teamsettings.git.server=github.com
+bluej.teamsettings.yourEmail=<<<Your email here>>>
+bluej.teamsettings.git.repositoryPrefix=/ralmond/FeedbackPalette.git
+bluej.teamsettings.vcs=git
+bluej.teamsettings.user=<<<nickname or initials>>>
+bluej.teamsettings.ignore3=team\\.defs
+bluej.teamsettings.ignore2=bluej\\.pkh
+bluej.teamsettings.ignore5=.*\\~
+bluej.teamsettings.git.branch=working
+bluej.teamsettings.ignore4=.*\\.ctxt
+bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.ignore6=.*\\\#
+bluej.teamsettings.git.protocol=https
+bluej.teamsettings.ignore8=\\.DS_Store
