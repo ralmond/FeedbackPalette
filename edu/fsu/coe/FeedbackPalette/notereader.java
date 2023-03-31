@@ -15,17 +15,26 @@ import java.util.Scanner; // Import the Scanner class to read text files
 public class notereader {
   public static void main(String[] args) {
     try {
-      File myObj = new File("EDF_4210FeedbackDatabase_-_Notes.tsv");
+      File myObj = new File("Test.tsv");
       Scanner myReader = new Scanner(myObj);
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();
-        System.out.println(data);
+        processline(data);
       }
       myReader.close();
     } catch (FileNotFoundException e) {
       System.out.println("An error occurred.");
       e.printStackTrace();
     }
+  }
+
+  public static Note processline(String data) {
+    Note result = new Note();
+    String[] fields = data.split("\t");
+    for (int i=0; i<fields.length; i++) {
+        System.out.println(fields[i]);
+    }
+    return result;
   }
 }
 

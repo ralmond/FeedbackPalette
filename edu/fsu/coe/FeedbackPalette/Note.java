@@ -156,7 +156,7 @@ public class Note {
    * @return       Document
    * @param        parameters Customizations based on the student text
    */
-  public static Document get_correctitsve_tex(Vector<String> parameters = NULL)
+  public static Document get_correctitsve_tex(Vector<String> parameters)
   {
   }
 
