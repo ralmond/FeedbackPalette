@@ -14,7 +14,7 @@ public class Document {
   /**
    * Set of keywords for the document.
    */
-  SortedSet<String> keywords= null;
+  SortedSet<String> keywords= NULL;
   
   //
   // Constructors
@@ -51,7 +51,7 @@ public class Document {
       return(keywords.contains(key));
   }
   public boolean removeKeyword(String key) {
-      return(keywords.remove(key));
+      keywords.remove(key);
   }
 // add, addAll, clear, contains, containsAll, equals, hashCode, isEmpty, iterator, remove, removeAll, retainAll, size, toArray, toArray
 }

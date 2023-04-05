@@ -158,7 +158,6 @@ public class Note {
    */
   public static Document get_correctitsve_tex(Vector<String> parameters)
   {
-      return null;
   }
 
 

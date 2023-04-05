@@ -2,7 +2,6 @@ package edu.fsu.coe.FeedbackPalette;
 
 
 import java.util.*;
-import Code.Text;
 
 
 /**
@@ -77,10 +76,23 @@ public class Example {
    */
   public Text getPositveExemplar()
   {
-      return PositiveExemplar;
   }
 
 
-  
+  /**
+   * @return       Text
+   */
+  public Text getNegativeExemplar()
+  {
+  }
+
+
+  /**
+   * @param        newExemplar
+   */
+  public void setPositiveExemplar(Text newExemplar)
+  {
+  }
+
 
 }

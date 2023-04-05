@@ -8,17 +8,11 @@ import java.util.*;
  * Class Posted
  */
 public class Posted {
-    
-    public enum StatusEnum {
-        SUGGESTED, APPPROVED, EDITED, EDITING, UNREAD, CLARIFACTION,
-        VERIFICATION_REQUESTED, RESOLVED
-    }
 
   //
   // Fields
   //
 
-  static 
   /**
    * A pointer into the document.
    */
