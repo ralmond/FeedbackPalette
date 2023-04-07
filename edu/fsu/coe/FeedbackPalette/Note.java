@@ -14,7 +14,7 @@ public class Note {
   //
 
   private String label;
-  private Document body;
+  private String body;
   private Vector<String> parameters;
   private RubricScale scale;
   private int points;
@@ -55,7 +55,7 @@ public class Note {
    * Set the value of body
    * @param newVar the new value of body
    */
-  public void setBody (Document newVar) {
+  public void setBody (String newVar) {
     body = newVar;
   }
 
@@ -63,7 +63,7 @@ public class Note {
    * Get the value of body
    * @return the value of body
    */
-  public Document getBody () {
+  public String getBody () {
     return body;
   }
 
@@ -158,6 +158,7 @@ public class Note {
    */
   public static Document get_correctitsve_tex(Vector<String> parameters)
   {
+      return null;
   }
 
 
